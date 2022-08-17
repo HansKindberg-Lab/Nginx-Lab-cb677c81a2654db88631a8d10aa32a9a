@@ -32,29 +32,7 @@ This is a web-application to lab with [Nginx](https://www.nginx.com). It's about
 
 Web-application, without configuration, pushed to Docker Hub: https://hub.docker.com/r/hanskindberg/nginx-lab
 
-
-
-
-
-
-
-
-	netstat -ano | find "80" | find "LISTEN"
-
-
-tasklist /fi "PID eq 1234"
-
-
-
-
-
-
-
-
-
-
-
-## Configuration
+## 1 Configuration
 
 - [Example](/Source/Application/appsettings.Development.json)
 
@@ -90,14 +68,33 @@ You may change it to what ever port you want.
 
 Now you can start nginx by double-clicking "C:\Program Files\nginx\nginx.exe". Browse to http://localhost:8080 and you should see a Nginx welcome message. You can verify that Nginx is running by checking the Task Manager. A nginx.exe process should be running.
 
+### 2.2 Hosts
 
-
-
+This applies if you are on Windows.
 
 To be able to run in Visual Studio on Windows you need to add the following to **C:\Windows\System32\drivers\etc\hosts**:
 
-	127.0.0.1 mtls-lab.local
-	127.0.0.1 mtls.mtls-lab.local
+	127.0.0.1 nginx-lab.local
+	127.0.0.1 mtls.nginx-lab.local
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Why
 
