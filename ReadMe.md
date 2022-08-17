@@ -52,7 +52,7 @@ If you get a result like this:
 
 	TCP   0.0.0.0:80    0.0.0.0:0    LISTENING    4
 
-Then port 80 is already occupied by process-id 4. To check which process it is run the following command:
+Then port 80 is already occupied by process-id 4. To check which process is running it, run the following command:
 
 	tasklist /fi "PID eq 4"
 
