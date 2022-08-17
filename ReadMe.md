@@ -44,7 +44,7 @@ This applies if you are on Windows.
 
 Download [Nginx for Windows](http://nginx.org/en/docs/windows.html). Download the latest mainline version distribution, http://nginx.org/en/download.html. Eg. http://nginx.org/download/nginx-1.23.1.zip. Unzip it and copy the content to "C:\Program Files\nginx".
 
-On my Windows-system, port 80 and 43 are already occupied by the system. You can check it by the following command:
+On my Windows, port 80 and 443 are already occupied by the system. You can check it by the following command:
 
 	netstat -ano | find "80" | find "LISTEN"
 
