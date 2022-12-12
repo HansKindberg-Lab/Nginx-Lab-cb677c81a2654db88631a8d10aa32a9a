@@ -83,12 +83,27 @@ To be able to run in Visual Studio on Windows you need to add the following to *
 
 
 
+### 2.3 OpenShift
+
+[Install Red Hat OpenShift 4 on your laptop](https://developer.ibm.com/blogs/install-openshift-4-on-your-laptop/)
+
+
+[Install OpenShift 4 on a laptop with CodeReady Containers](https://cloud.redhat.com/openshift/install/crc/installer-provisioned)
+
+
+https://github.com/code-ready/crc
 
 
 
 
 
+===============================================================================
 
+# Notes
+
+[Tutorial: Create a multi-container app with Docker Compose](https://docs.microsoft.com/en-us/visualstudio/containers/tutorial-multicontainer)
+
+===============================================================================
 
 
 
